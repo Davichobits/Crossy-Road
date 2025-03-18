@@ -5,7 +5,7 @@ import { Wheel } from './Wheel';
 interface ICar {
   initialTileIndex: number,
   direction:boolean,
-  color: string,
+  color: number,
 }
 
 export function Car ({
